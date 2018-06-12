@@ -25,12 +25,15 @@
 #include "strnatcmp.h"
 
 static char *devices[] = {
+  "app0:",
   "gro0:",
   "grw0:",
   "imc0:",
   "os0:",
+  "os1:",
   "pd0:",
   "sa0:",
+  "savedata0:",
   "sd0:",
   "tm0:",
   "ud0:",
@@ -39,6 +42,7 @@ static char *devices[] = {
   "ux0:",
   "vd0:",
   "vs0:",
+  "xmc0:",
   "host0:",
 };
 
